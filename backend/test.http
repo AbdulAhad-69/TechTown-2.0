@@ -1,0 +1,39 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Sheikh Abdul Ahad",
+  "email": "ahad@test.com",
+  "password": "password123",
+  "role": "admin"
+}
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "ahad@test.com",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test Seller",
+  "email": "seller@test.com",
+  "password": "password123",
+  "role": "seller"
+}
+
+###
+
+GET http://localhost:5000/api/auth/me
+
+###
+
+GET http://localhost:5000/api/products
