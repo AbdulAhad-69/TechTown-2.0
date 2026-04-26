@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo Section */}
                     <Link to="/" className="shrink-0 flex items-center gap-2 hover:opacity-80 transition">
-                        <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center font-bold text-xl">
+                        <div className="w-8 h-8 bg-orange-600 rounded flex items-center justify-center font-bold text-xl">
                             T
                         </div>
                         <span className="font-bold text-xl tracking-tight">TechTown</span>
@@ -52,7 +52,7 @@ const Header = () => {
 
                                 <button
                                     onClick={handleLogout}
-                                    className="bg-red-600 px-4 py-2 rounded-lg font-bold hover:bg-red-500 transition shadow-md"
+                                    className="bg-gray-600 px-4 py-2 rounded-lg font-bold hover:bg-red-500 transition shadow-md"
                                 >
                                     Sign Out
                                 </button>

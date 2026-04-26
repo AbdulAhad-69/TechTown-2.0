@@ -30,7 +30,7 @@ const HomePage = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-10">
-                Welcome to <span className="text-blue-600">TechTown</span>
+                Welcome to <span className="text-orange-600">TechTown</span>
             </h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
